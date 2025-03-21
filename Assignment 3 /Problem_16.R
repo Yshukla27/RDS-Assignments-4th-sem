@@ -1,1 +1,5 @@
-
+x <- c(TRUE, FALSE, TRUE)
+y <- any(x)
+z <- all(x)
+print(y)
+print(z)
