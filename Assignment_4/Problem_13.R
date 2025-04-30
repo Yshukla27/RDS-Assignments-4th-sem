@@ -1,8 +1,6 @@
-#Extract the second element from the nested list created above.
-nested_list[[2]]
+#Write code to convert a character column in a data frame to a factor.
+my_data$Name <- factor(my_data$Name)
+my_data$Name
 #Output
-# $numeric_vector
-# [1] 1 2 3 4
-
-# $char_vector
-# [1] "apple"  "banana" "cherry"
+# [1] Alice   Bob     Charlie David  
+# Levels: Alice Bob Charlie David
